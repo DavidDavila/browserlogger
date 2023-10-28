@@ -3,7 +3,7 @@
 La clase `WebkitLogger` es una herramienta de registro (logging) para aplicaciones web en navegadores. Permite registrar mensajes de depuración, información, advertencias y errores en la consola del navegador. Esta clase es parte de un sistema de registro más amplio que puede incluir diferentes tipos de registradores, como `WebkitConsoleLogger`.
 
 
-![Demo](https://raw.githubusercontent.com/DavidDavila/webkit-logger/main/img.png)
+![Demo](https://raw.githubusercontent.com/DavidDavila/browserlogger/main/img.png)
 
 ## Uso
 
