@@ -19,3 +19,4 @@ proxies/
 .eslintignore
 .eslintrc.json
 webpack.config.json
+img.png
