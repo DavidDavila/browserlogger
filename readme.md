@@ -2,6 +2,9 @@
 
 La clase `BrowserLogger` es una herramienta de registro (logging) para aplicaciones web en navegadores. Permite registrar mensajes de depuración, información, advertencias y errores en la consola del navegador. Esta clase es parte de un sistema de registro más amplio que puede incluir diferentes tipos de registradores, como `BrowserConsoleLogger`.
 
+
+![Demo](https://raw.githubusercontent.com/DavidDavila/browserlogger/main/img.png)
+
 ## Uso
 
 Puedes utilizar la clase `BrowserLogger` para registrar mensajes en la consola del navegador de la siguiente manera:
