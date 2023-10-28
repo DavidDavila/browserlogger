@@ -1,7 +1,7 @@
-import { BrowserLogger } from '../src/index';
+import { WebkitLogger } from '../src/index';
 
-const logger = new BrowserLogger();
-BrowserLogger.debug('Esto es un mensaje de debug');
-BrowserLogger.info('Info message');
-BrowserLogger.warn('Warning message');
-BrowserLogger.error('Error message');
+const logger = new WebkitLogger();
+WebkitLogger.debug('Esto es un mensaje de debug');
+WebkitLogger.info('Info message');
+WebkitLogger.warn('Warning message');
+WebkitLogger.error('Error message');

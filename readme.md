@@ -1,37 +1,37 @@
-# Clase BrowserLogger
+# Clase WebkitLogger
 
-La clase `BrowserLogger` es una herramienta de registro (logging) para aplicaciones web en navegadores. Permite registrar mensajes de depuración, información, advertencias y errores en la consola del navegador. Esta clase es parte de un sistema de registro más amplio que puede incluir diferentes tipos de registradores, como `BrowserConsoleLogger`.
+La clase `WebkitLogger` es una herramienta de registro (logging) para aplicaciones web en navegadores. Permite registrar mensajes de depuración, información, advertencias y errores en la consola del navegador. Esta clase es parte de un sistema de registro más amplio que puede incluir diferentes tipos de registradores, como `WebkitConsoleLogger`.
 
 
 ![Demo](https://raw.githubusercontent.com/DavidDavila/webkit-logger/main/img.png)
 
 ## Uso
 
-Puedes utilizar la clase `BrowserLogger` para registrar mensajes en la consola del navegador de la siguiente manera:
+Puedes utilizar la clase `WebkitLogger` para registrar mensajes en la consola del navegador de la siguiente manera:
 
 ```javascript
-// Importa la clase BrowserLogger
-import { BrowserLogger } from 'webkit-logger';
+// Importa la clase WebkitLogger
+import { WebkitLogger } from 'webkit-logger';
 
 // Registra un mensaje de depuración
-BrowserLogger.debug('Este es un mensaje de depuración.');
+WebkitLogger.debug('Este es un mensaje de depuración.');
 
 // Registra un mensaje de información
-BrowserLogger.info('Este es un mensaje de información.');
+WebkitLogger.info('Este es un mensaje de información.');
 
 // Registra una advertencia
-BrowserLogger.warn('Este es un mensaje de advertencia.');
+WebkitLogger.warn('Este es un mensaje de advertencia.');
 
 // Registra un error
-BrowserLogger.error('Este es un mensaje de error.');
+WebkitLogger.error('Este es un mensaje de error.');
 
 ````
 ## Configuración
-La clase BrowserLogger admite diferentes tipos de registradores. En el código proporcionado, se utiliza BrowserConsoleLogger como registrador predeterminado. Puedes personalizar los registradores que deseas utilizar editando el array logger en la clase.
+La clase WebkitLogger admite diferentes tipos de registradores. En el código proporcionado, se utiliza WebkitConsoleLogger como registrador predeterminado. Puedes personalizar los registradores que deseas utilizar editando el array logger en la clase.
 
 ```javascript
  
-private static logger: any[] = [BrowserConsoleLogger];
+private static logger: any[] = [WebkitConsoleLogger];
  // Puedes agregar más registradores a este array según tus necesidades.
 ````
 ## Contribución
